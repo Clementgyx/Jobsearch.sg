@@ -3,8 +3,8 @@ Project 4
 
 Features a simple app for people to find and post jobs on my website 
 ## Frameworks used
-FRONT END: HTML, SCSS, JAVASCRIPT, REACT, JWT
-BACKEND: Postgres, EXPRESS, NODEJS
+-FRONT END: Html, Scss, JS, React, JWT
+-BACKEND: Postgres, Express, NodeJS
 
 ## Future features to implement or fix
 In the future, I would like to add these additional features:
