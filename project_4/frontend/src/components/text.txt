@@ -1,0 +1,14 @@
+  //logout and remove JWT
+  const logout = async (e) => {
+    e.preventDefault();
+    try {
+      localStorage.removeItem("token");
+      setAuth(false);
+      toast.success("Logout successfully");
+    } catch (err) {
+      console.error(err.message);
+    }
+  };
+ <Button variant="danger" onClick={(e) => logout(e)}>
+            Logout
+          </Button>
