@@ -1,6 +1,6 @@
 # Jobsearch.sg
 Project 4
-
+Done in Pern stack
 Features a simple app for people to find and post jobs on my website 
 ## Frameworks used
 -FRONT END: Html, Scss, JS, React, JWT
