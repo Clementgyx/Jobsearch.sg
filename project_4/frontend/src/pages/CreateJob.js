@@ -68,7 +68,7 @@ function CreateJob({ setAuth }) {
             name="company"
             value={company}
             placeholder="Enter your company name"
-            onChange={(e) => onChange(e)}
+            onChange={onChange}
           />
         </Form.Group>
         <Form.Group className="mb-3" controlId="formBasicJobPosition">
@@ -78,7 +78,7 @@ function CreateJob({ setAuth }) {
             name="job_position"
             value={job_position}
             placeholder="Enter your Job position/title"
-            onChange={(e) => onChange(e)}
+            onChange={onChange}
           />
         </Form.Group>
         <Form.Group className="mb-3" controlId="formBasicJobDescription">
@@ -88,7 +88,7 @@ function CreateJob({ setAuth }) {
             name="job_description"
             value={job_description}
             placeholder="Enter your Job description and contact details"
-            onChange={(e) => onChange(e)}
+            onChange={onChange}
           />
         </Form.Group>
         <Button variant="primary" type="submit">

@@ -68,21 +68,21 @@ function Jobcard(prop) {
                   name="company"
                   value={company}
                   placeholder="Enter company name here"
-                  onChange={(e) => onChange(e)}
+                  onChange={onChange}
                 />
                 <input
                   type="text"
                   name="job_position"
                   value={job_position}
                   placeholder="Enter job title/position here"
-                  onChange={(e) => onChange(e)}
+                  onChange={onChange}
                 />
                 <input
                   type="text"
                   name="job_description"
                   value={job_description}
                   placeholder="Describe the job requirements and how to contact. "
-                  onChange={(e) => onChange(e)}
+                  onChange={onChange}
                 />
               </tr>
             </Modal.Body>
